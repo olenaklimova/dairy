@@ -13,26 +13,26 @@ const arts = [
 const sortedPostsCount = 4 // Max number of posts in main page
 const postsCount = 3 // Number of posts in blog page
 const categories = [
-    'travel',
-    'inspiration',
-    'food',
-    'photos',
-    'fasion',
-    'cool places',
+    'power bi',
+    'excel',
+    'google certificate capstone project',
+    'tableau',
+    'my certificates',
+    'other projects',
 ] // Existed post categories
 
 const mainCategories = [
     { 
-        name: 'travel',
-        preview: 'travel.jpg',
+        name: 'excel',
+        preview: 'exceldash.jpg',
     },
     {
-        name: 'inspiration',
-        preview: 'inspiration.jpg',
+        name: 'power bi',
+        preview: 'powerbidash.jpg',
     },
     {
-        name: 'cool places',
-        preview: 'life-style.jpg',
+        name: 'google certificate capstone project',
+        preview: 'googleanalyticsdash.jpg',
     },
 ] // 3 categories for main page
 
@@ -46,20 +46,20 @@ const quotesList = [
 ] // Quotes for quote block, limited by quotesLimit
 
 const gallery = [
-    'gallery_1.jpg',
-    'gallery_2.jpg',
-    'gallery_3.jpg',
-    'gallery_4.jpg',
-    'gallery_5.jpg',
-    'gallery_6.jpg',
+    'gal1.jpg',
+    'gal2.jpg',
+    'gal3.jpg',
+    'gal4.jpg',
+    'gal5.jpg',
+    'gal6.jpg',
 ] // Pictures for gallery (I recommend 6)
 
 // About:
 
 const aboutMain = {
-    title: 'about us',
-    background: 'coffee.jpg',
-    p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, illo excepturi consequuntur omnis nisi nostrum dolorem, nihil reiciendis ipsum magni odit quam exercitationem porro quae id facilis quas possimus voluptatem. Odit quis illum modi ad repellendus, pariatur natus?'
+    title: 'about me',
+    background: 'me.jpg',
+    p: 'I am a data enthusiast with a passion for turning raw numbers into compelling stories. My journey through Italy, Spain, Belgium, and Ukraine has enriched my perspective and sharpened my adaptability. I thrive on automating complex reports and crafting interactive dashboards that make data speak clearly and persuasively. Every project I take on is a new opportunity to dive deep, simplify complexity, and drive smarter decisions through data.'
 }
 
 const aboutContent = [
