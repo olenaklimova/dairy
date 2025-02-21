@@ -1,5 +1,5 @@
 const icon = ''
-const title = 'Olena\'s Data Diary'
+const title = 'Data Diary of Olena'
 const subTitle = 'What gets measured gets improved'
 
 const blockOpacity = 0.88 // From 0 to 1
@@ -38,9 +38,9 @@ const mainCategories = [
 
 const quotesLimit = 3 // More than 4 looks terrible
 const quotesList = [
-    'The first dolor sit amet, consectetur adipiscing elit. Morbi vitae ultrices augue. Suspendisse finibus augue nec mi luctus, ac bibendum diam iaculis.',
-    'The second dolor sit amet, consectetur adipiscing elit. Morbi vitae ultrices augue. Suspendisse finibus augue nec mi luctus, ac bibendum diam iaculis.',
-    'The third dolor sit amet, consectetur adipiscing elit. Morbi vitae ultrices augue. Suspendisse finibus augue nec mi luctus, ac bibendum diam iaculis.',
+    'There were 5 exabytes of information created between the dawn of civilization through 2003, but that much information is now created every two days.',
+    'No data is clean, but most is useful.',
+    'Errors using inadequate data are much less than those using no data at all.',
 
 ] // Quotes for quote block, limited by quotesLimit
 
