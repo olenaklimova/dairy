@@ -41,8 +41,7 @@ const quotesList = [
     'The first dolor sit amet, consectetur adipiscing elit. Morbi vitae ultrices augue. Suspendisse finibus augue nec mi luctus, ac bibendum diam iaculis.',
     'The second dolor sit amet, consectetur adipiscing elit. Morbi vitae ultrices augue. Suspendisse finibus augue nec mi luctus, ac bibendum diam iaculis.',
     'The third dolor sit amet, consectetur adipiscing elit. Morbi vitae ultrices augue. Suspendisse finibus augue nec mi luctus, ac bibendum diam iaculis.',
-    'The fourth dolor sit amet, consectetur adipiscing elit. Morbi vitae ultrices augue. Suspendisse finibus augue nec mi luctus, ac bibendum diam iaculis.',
-    'The fourth dolor sit amet, consectetur adipiscing elit. Morbi vitae ultrices augue. Suspendisse finibus augue nec mi luctus, ac bibendum diam iaculis.',
+
 ] // Quotes for quote block, limited by quotesLimit
 
 const gallery = [
@@ -77,28 +76,28 @@ const aboutImages = [
 // Contacts:
 
 const contacts = [
-    // Twitter:
+    // Email:
     {
-        background: 'mountains.jpg',
-        link: 'https://twitter.com/',
-        text: 'Klimov',
+        background: 'contact1.jpg',
+        link: 'https://mail.google.com/mail/?view=cm&fs=1&to=alenaklimovaaa@gmail.com',
+        text: 'Email me',
     }, 
-    // Instagram:
+    // Tableau:
     {
-        background: 'sky.jpg',
-        link: 'https://www.instagram.com/',
-        text: '@bodya_klimov',
+        background: 'contact2.jpg',
+        link: 'https://public.tableau.com/app/profile/olena.klimova/vizzes',
+        text: 'See my vizes',
     }, 
     // Linkedin:
     {
-        background: 'food.jpg',
-        link: 'https://uk.linkedin.com/',
-        text: 'Bogdan Klimov',
+        background: 'contact3.jpg',
+        link: 'https://www.linkedin.com/in/klimovaolena/',
+        text: 'Connect with me',
     },
     // Facebook:
     {
-        background: 'home.jpg',
-        link: 'https://www.facebook.com/',
-        text: 'Bodya Klimov',
+        background: 'contact4.jpg',
+        link: 'https://www.facebook.com/profile.php?id=100022737564198',
+        text: 'More of me',
     }
 ]
