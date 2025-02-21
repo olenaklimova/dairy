@@ -69,9 +69,9 @@ const aboutContent = [
 ]
 
 const aboutImages = [
-    'passion.jpg',
-    'curiosity.jpg', 
-    'hardwork.jpg'
+    'pas.jpg',
+    'cur.jpg', 
+    'hard.jpg'
 ]
 
 // Contacts:
