@@ -1,13 +1,13 @@
 const icon = ''
-const title = 'Olena\s Data Diary'
-const subTitle = 'a theme for all life style and travel bloggers!'
+const title = 'Olena\'s Data Diary'
+const subTitle = 'What gets measured gets improved'
 
 const blockOpacity = 0.88 // From 0 to 1
 const sliderTime = 5 // Time of slider interval in seconds
 const arts = [
-    'mountains.jpg',
-    'red_beach.jpg',
-    'yellow_beach.jpg',
+    'graphblue.jpg',
+    'graphcomp.jpg',
+    'graphdash.jpg',
 ] // Arts for slider
 
 const sortedPostsCount = 4 // Max number of posts in main page
