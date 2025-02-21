@@ -31,7 +31,7 @@ const mainCategories = [
         preview: 'powerbidash.jpg',
     },
     {
-        name: 'google certificate capstone project',
+        name: 'google certificate',
         preview: 'googleanalyticsdash.jpg',
     },
 ] // 3 categories for main page
@@ -64,20 +64,14 @@ const aboutMain = {
 
 const aboutContent = [
     {
-        p: 'The third dolor sit amet, consectetur adipiscing elit. Morbi vitae ultrices augue. Suspendisse finibus augue nec mi luctus, ac bibendum diam iaculis.'
-    },
-    {
-        p: 'The third dolor sit amet, consectetur adipiscing elit. Morbi vitae ultrices augue. Suspendisse finibus augue nec mi luctus, ac bibendum diam iaculis.'
-    },
-    {
-        p: 'The third dolor sit amet, consectetur adipiscing elit. Morbi vitae ultrices augue. Suspendisse finibus augue nec mi luctus, ac bibendum diam iaculis.'
+        p: 'Driven by Data. Defined by Persistence.'
     }
 ]
 
 const aboutImages = [
-    'road.jpg',
-    'sand.jpg', 
-    'water.jpg'
+    'passion.jpg',
+    'curiosity.jpg', 
+    'hardwork.jpg'
 ]
 
 // Contacts:
