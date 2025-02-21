@@ -1,5 +1,5 @@
 const icon = ''
-const title = 'Life Style Blog'
+const title = 'Olena\s Data Diary'
 const subTitle = 'a theme for all life style and travel bloggers!'
 
 const blockOpacity = 0.88 // From 0 to 1
