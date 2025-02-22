@@ -133,7 +133,9 @@ const renderSliderBlock = (id) => {
     sliderBlockWrapper.insertAdjacentHTML('afterbegin', sliderBlock)
 }
 
-renderSliderBlock(0)
+const sliderBlockId = posts.length - 1;
+
+renderSliderBlock(sliderBlockId)
 
 const createCategory = (name, preview) => {
     const category = 
