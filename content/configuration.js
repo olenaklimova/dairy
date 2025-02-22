@@ -70,9 +70,9 @@ const aboutContent = [
 ]
 
 const aboutImages = [
-    'pas.jpg',
-    'cur.jpg', 
-    'hard.jpg'
+    'passione.jpg',
+    'curiosity.jpg', 
+    'hardwork.jpg'
 ]
 
 // Contacts:
