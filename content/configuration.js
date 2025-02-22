@@ -5,9 +5,9 @@ const subTitle = 'What gets measured gets improved'
 const blockOpacity = 0.88 // From 0 to 1
 const sliderTime = 5 // Time of slider interval in seconds
 const arts = [
-    'graphblue.jpg',
-    'graphcomp.jpg',
-    'graphdash.jpg',
+    'front1.jpg',
+    'front2.jpg',
+    'front3.jpg',
 ] // Arts for slider
 
 const sortedPostsCount = 4 // Max number of posts in main page
