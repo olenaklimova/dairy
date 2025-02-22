@@ -20,6 +20,7 @@ html {
     display: flex;
     justify-content: center;
     user-select: none;
+    align-items: center;
     cursor: pointer;
     width: 100%;
     transition: .1s;
