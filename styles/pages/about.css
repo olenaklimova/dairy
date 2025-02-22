@@ -121,3 +121,24 @@ p {
     margin-top: -115px;
 } 
 
+.about_cover {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about_additional {
+    flex-flow: column-reverse;
+}
+.about_cover-item {
+    margin: 0 25px !important;
+    max-width: 100%;
+}
+.about_cover-item:nth-child(1) {
+    margin-left: 0 !important;
+}
+.about_cover-item:nth-child(3) {
+    margin-right: 0 !important;
+}
+.about_content {
+    margin-top: 55px;
+}
