@@ -103,21 +103,21 @@ let posts = [
         ]
     },
     {
-        title: 'Churn Analysis with Power BI: Key Takeaways',
-        cover: 'site/cover.jpg',
-        preview: 'site/preview.jpg',
-        data: '03.01.2024',
-        category: 'google cert.',
-        author: 'by Bodya',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.',
+        title: 'My SQL Achievements',
+        cover: 'mycertposts/sql0.jpg',
+        preview: 'mycertposts/sql1.jpg',
+        data: '13.10.2023',
+        category: 'my certificates',
+        author: 'Udemy Academy',
+        description: 'I completed “The Complete Oracle SQL Bootcamp” from Oracle Master Training. ',
         content: [
             {
-                h1: 'How did it begin?',
-                p: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.'
+                p: 'I completed “The Complete Oracle SQL Bootcamp” from Oracle Master Training—a comprehensive course covering everything from basic queries to advanced techniques that sharpen my SQL skill set.',
+                 image: 'mycertposts/sqlcertificate.jpg'
             },
             {
-                p: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.',
-                image: 'site/site.jpg',
+                p: 'To keep pushing my limits, I regularly tackle SQL challenges on LeetCode, which hones my problem-solving abilities and ensures I stay at the forefront of industry standards. This blend of structured coursework and hands-on practice underscores my commitment to continuous learning and excellence in data management.',
+                image: 'mycertposts/sql1.jpg',
             },
         ]
     },
