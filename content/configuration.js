@@ -45,12 +45,12 @@ const quotesList = [
 ] // Quotes for quote block, limited by quotesLimit
 
 const gallery = [
-    'gal1.jpg',
-    'gal2.jpg',
-    'gal3.jpg',
-    'gal4.jpg',
-    'gal5.jpg',
-    'gal6.jpg',
+    'collection1.jpg',
+    'preparation2.jpg',
+    'input3.jpg',
+    'processing4.jpg',
+    'interpretation5.jpg',
+    'storage6.jpg',
 ] // Pictures for gallery (I recommend 6)
 
 // About:
@@ -70,7 +70,7 @@ const aboutContent = [
 ]
 
 const aboutImages = [
-    'passione.jpg',
+    'passion.jpg',
     'curiosity.jpg', 
     'hardwork.jpg'
 ]
