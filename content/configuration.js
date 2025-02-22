@@ -15,7 +15,7 @@ const postsCount = 3 // Number of posts in blog page
 const categories = [
     'power bi',
     'excel',
-    'google certificate capstone project',
+    'google cert.',
     'tableau',
     'my certificates',
     'other projects',
@@ -31,7 +31,7 @@ const mainCategories = [
         preview: 'powerbidash.jpg',
     },
     {
-        name: 'google certificate',
+        name: 'google cert.',
         preview: 'googleanalyticsdash.jpg',
     },
 ] // 3 categories for main page
@@ -54,6 +54,8 @@ const gallery = [
 ] // Pictures for gallery (I recommend 6)
 
 // About:
+
+const aboutCircle = 'mecircle.jpg'
 
 const aboutMain = {
     title: 'about me',

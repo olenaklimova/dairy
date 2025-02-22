@@ -408,7 +408,7 @@ const socialList = document.getElementsByClassName('social_list-href')
 for (let i = 0; i < 4; i++) socialList[i].href = contacts[i].link
 
 const sideAboutImage = document.getElementById('side_about-image')
-sideAboutImage.style.backgroundImage = `url(content/images/about/${aboutImages[0]})`
+sideAboutImage.style.backgroundImage = `url(content/images/about/${aboutCircle})`
 
 const sideAboutTxt = document.getElementById('side_about-text')
 sideAboutTxt.innerText = aboutMain.p
