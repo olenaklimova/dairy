@@ -69,13 +69,13 @@ let posts = [
                 image:'powerbiposts/data1.jpg',
             },
             {
-                p: 'I dedicated a section of the data preparation process to creating custom columns that capture how often each skill—SQL, BI, Excel, Tableau, Python—appears in the job postings. By parsing the job descriptions and coding presence/absence for each technology, I could quantify demand and quickly see which skills dominate the market. This approach also enabled dynamic filtering, letting me compare skill usage by role, location, and salary range, and ultimately reveal the core competencies that employers value most in a Data Analyst these days.',
+                p: 'I dedicated a section of the data preparation process to creating custom columns that capture how often each skill—SQL, BI, Excel, Tableau, Python etc.—appears in the job postings. By parsing the job descriptions and coding presence/absence for each technology, I could quantify demand and quickly see which skills dominate the market. This approach also enabled dynamic filtering, letting me compare skill usage by role, location, and salary range, and ultimately reveal the core competencies that employers value most in a Data Analyst these days.',
                 image: 'powerbiposts/data2.jpg',
             },
             ,
             {
                 h2: 'Visualization',
-                p: 'I visualized the distribution of key skills (SQL, Python, Tableau) with a Treemap, mapped the number of open positions by state (CA, TX, NY) in a Line Chart, and used Card and Bar Charts to show salary differences among Financial Data Analyst, Senior Data Analyst, and Business Analyst positions. Finally, I added interactive slicers (year, state, job title) so both recruiters and curious job seekers can filter the data in real time, making it easy to spot the most in-demand skills, salary variations, and overall trends in the Data Analyst market.',
+                p: 'I visualized the distribution of key skills (SQL, Python, Tableau etc.) with a Treemap, mapped the number of open positions by state (CA, TX, NY) in a Line Chart, and used Clustered Bar Chart to show salary differences among Financial Data Analyst, Senior Data Analyst, and Business Analyst positions. Finally, I added interactive slicers (year, state, job title) so both recruiters and curious job seekers can filter the data in real time, making it easy to spot the most in-demand skills, salary variations, and overall trends in the Data Analyst market.',
                 image: 'powerbiposts/data.jpg',
             },
             {
