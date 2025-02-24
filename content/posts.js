@@ -202,15 +202,15 @@ let posts = [
     },
     {
         title: 'Key Insights & Recommendations from the Cyclistic Bike Study',
-        cover: 'googlecert/bike1.jpg',
-        preview: 'googlecert/bike3.jpg',
+        cover: 'googlecert/bike2.jpg',
+        preview: 'googlecert/bike1.jpg',
         data: '30.08.2023',
         category: 'google cert.',
         author: 'by Olena',
         description: 'In the final installment of my Capstone Project series, I am sharing the key insights and strategic recommendations derived from my analysis of bike trip data. These findings highlight distinct behavioral patterns between Customers and Subscribers, and they offer a roadmap for enhancing service and driving subscription growth.',
         content: [
             {
-                image: 'googlecert/bike2.jpg',
+                image: 'googlecert/bike3.jpg',
                 h1: 'Key Insights',
                 p: '- In New Hampshire, customer trips outpaced subscriber trips, potentially due to the nearby White Mountain National Forest attracting vacationers who rent bikes. However, in other zones, customer trips were fewer.'
             },
@@ -224,6 +224,7 @@ let posts = [
                 p: '- Average duration of trip is higher for customers and lower for subscribers. February is the month with the highest duration of trips throughout the year.'
             },
             {
+                image: 'googlecert/bike4.jpg',
                 h1: 'Strategic Recommendations',
                 p: 'Develop enticing annual subscription packages: Customers making occasional trips, for example, to mountainous regions could be targeted with special vacation subscription packages. These packages could provide benefits or discounts specifically tailored to their trip timings or locations.'
             },
