@@ -122,40 +122,81 @@ let posts = [
         ]
     },
     {
-        title: 'Churn Analysis with Power BI: Key Takeaways',
-        cover: 'site/cover.jpg',
-        preview: 'site/preview.jpg',
-        data: '03.01.2024',
-        category: 'my certificates',
-        author: 'by Bodya',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.',
+        title: 'Data Cleaning & Organization in R. Behind the Scenes of My Capstone Project',
+        cover: 'googlecert/google1.jpg',
+        preview: 'googlecert/google1.jpg',
+        data: '22.06.2023',
+        category: 'google cert.',
+        author: 'Olena',
+        description: 'Welcome to the first installment of my Capstone Project series! In this post, I am diving into how I cleaned and organized the raw data for my project using R. This interactive walkthrough will give you a glimpse into turning messy datasets into a structured foundation for meaningful insights.',
         content: [
             {
-                h1: 'How did it begin?',
-                p: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.'
+                h1: '1. Setting the Stage: Reading Data & Loading Libraries',
+                p: 'I started by reading in four quarterly datasets (Q1 to Q4 of 2019) using read.csv2(). To manage the process, I loaded essential libraries like dplyr, tidyverse, and lubridate. This initial step ensured that the data was ready to be transformed and analyzed.',
+                image: 'googlecert/google1.jpg'
             },
             {
-                p: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.',
-                image: 'site/site.jpg',
+                h1: '2. Getting a Sneak Peek: Data Exploration',
+                p: 'Before diving into heavy transformations, I took a closer look at each dataset. Viewing the first 100 rows of each quarter helped identify inconsistencies (like column name mismatches) and provided a solid understanding of the structure.',
+                image: 'googlecert/google2.jpg'
+            },
+            {
+                h1: '3. Bringing It All Together: Merging & Data Type Adjustments',
+                p: 'Next up, I combined the quarterly tables into a single dataset. This step was crucial for a comprehensive view of the data across the entire year. Alongside, I transformed key variables—such as converting date-time strings into proper date objects and adjusting the trip duration.',
+                image: 'googlecert/google3.jpg'
+            },
+            {
+                h1: '4. Adding a Dash of Time & Location: Enhancing the Dataset',
+                p: 'To enrich the dataset, I extracted time components like start and stop times, as well as the month and day of the week from the timestamps. I also used the ggmap package to geocode station addresses—transforming names into latitude and longitude coordinates. This allowed for exciting spatial visualizations later on.',
+                image: 'googlecert/google4.jpg'
+            },
+            {
+                h1: '5. Final Touches: Merging & Cleaning Up',
+                p: 'The final steps involved merging the geocoded data back into the main dataset and ensuring data consistency by removing duplicates and handling missing values. These actions set the stage for creating compelling visualizations in the next post.',
+                image: 'googlecert/google5.jpg'
+            },
+            {
+                image: 'googlecert/google6.jpg',
+            },
+            {
+                h1: 'Wrapping Up',
+                p: 'Transforming raw data into a clean, organized format is both an art and a science. Through systematic exploration, transformation, and merging, I set the stage for insightful visualizations and compelling narratives in the upcoming posts. Stay tuned for the next installment where I delve into creating interactive visuals from this refined dataset!'
             },
         ]
     },
     {
-        title: 'Churn Analysis with Power BI: Key Takeaways',
-        cover: 'site/cover.jpg',
-        preview: 'site/preview.jpg',
-        data: '03.01.2024',
-        category: 'other projects',
-        author: 'by Bodya',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.',
+        title: 'Bringing Bike Trip Data to Life with Tableau',
+        cover: 'googlecert/googleanalyticsdash.jpg',
+        preview: 'googlecert/googleanalyticsdash.jpg',
+        data: '25.07.2023',
+        category: 'google cert.',
+        author: 'by Olena',
+        description: 'Welcome to the second installment of my Capstone Project series! After meticulously cleaning and organizing the data in R, I used Tableau to transform rows of numbers into interactive, dynamic visualizations. In this post, I will walk through the key charts and dashboards I built—without delving too deeply into the findings (I will share my observations in the next post).',
         content: [
             {
-                h1: 'How did it begin?',
-                p: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.'
+                h1: '1. Mapping the Ride: Density of Users Trips by State',
+                p: 'A map is one of the most intuitive ways to display where bike trips happen. I created a color-coded map in Tableau that highlights the number of rides per state. You can hover over each state to see a tooltip with exact figures.',
+                image: 'googlecert/map1.jpg'
             },
             {
-                p: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.',
-                image: 'site/site.jpg',
+                h1: '2. The Busiest Spots: Top 10 Departure Stations',
+                p: 'Next, I designed a bar chart to pinpoint the most frequent departure stations. By ranking these stations in descending order, the chart quickly reveals which locations see the highest volume of bike rentals.',
+                image: 'googlecert/map2.jpg',
+            },
+            {
+                h1: '3. Daily & Hourly Patterns: Amount of Trips Over Time',
+                p: 'To explore usage patterns throughout the week, I plotted a line or area chart showing total trips per day. A second chart breaks down hourly peaks, helping visualize how trip counts fluctuate from dawn to late evening.',
+                image: 'googlecert/map3.jpg',
+            },
+            {
+                h1: '4. Comparing User Types: Average Trip Duration',
+                p: 'For a quick look at how different user groups behave, I created a column chart comparing average trip durations between various user categories (e.g., Customers vs. Subscribers). This chart visually contrasts how long each group typically rides.',
+                image: 'googlecert/map4.jpg',
+            },
+            {
+                h1: '5. Bringing It All Together: Combined Dashboard',
+                p: 'Finally, I compiled these visuals into a single interactive dashboard. With Tableau filtering and highlighting capabilities, it is easy to slice and dice the data on the fly. This integrated view is especially helpful for noticing connections across different charts.',
+                image: 'googlecert/map2.jpg',
             },
         ]
     },
