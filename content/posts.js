@@ -201,24 +201,48 @@ let posts = [
         ]
     },
     {
-        title: 'Churn Analysis with Power BI: Key Takeaways',
-        cover: 'site/cover.jpg',
-        preview: 'site/preview.jpg',
-        data: '03.01.2024',
-        category: 'tableau',
-        author: 'by Bodya',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.',
+        title: 'Key Insights & Recommendations from the Cyclistic Bike Study',
+        cover: 'googlecert/bike1.jpg',
+        preview: 'googlecert/bike3.jpg',
+        data: '30.08.2023',
+        category: 'google cert.',
+        author: 'by Olena',
+        description: 'In the final installment of my Capstone Project series, I am sharing the key insights and strategic recommendations derived from my analysis of bike trip data. These findings highlight distinct behavioral patterns between Customers and Subscribers, and they offer a roadmap for enhancing service and driving subscription growth.',
         content: [
             {
-                h1: 'How did it begin?',
-                p: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.'
+                image: 'googlecert/bike2.jpg',
+                h1: 'Key Insights',
+                p: '- In New Hampshire, customer trips outpaced subscriber trips, potentially due to the nearby White Mountain National Forest attracting vacationers who rent bikes. However, in other zones, customer trips were fewer.'
             },
             {
-                p: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus sint voluptatum, ducimus mollitia iure obcaecati beatae minima sequi adipisci asperiores blanditiis commodi ut sunt. Delectus ullam hic ducimus maxime.',
-                image: 'site/site.jpg',
+                p: '- Different preferences are observed in departure stations between customers and subscribers, suggesting unique usage patterns and needs for these two groups.'
             },
+            {
+                p: '- Peak trip months: June-Sept. Subscriber preference: weekdays. Customers favor weekends. More rides occur at the month start. Two peak hours: 8 AM and a higher peak at 5 PM.'
+            }, 
+            {
+                p: '- Average duration of trip is higher for customers and lower for subscribers. February is the month with the highest duration of trips throughout the year.'
+            },
+            {
+                h1: 'Strategic Recommendations',
+                p: 'Develop enticing annual subscription packages: Customers making occasional trips, for example, to mountainous regions could be targeted with special vacation subscription packages. These packages could provide benefits or discounts specifically tailored to their trip timings or locations.'
+            },
+            {
+                p: 'Enhance services at customer-frequented stations: Run promotions or conduct surveys at stations with high customer traffic. The feedback could reveal user preferences and identify opportunities for making stations more appealing to potential subscribers.'
+            }, 
+            {
+                p: 'Custom Subscription Plans: Offer tailored subscription plans to those customers who exhibit potential subscriber traits, such as high average trip times or preferences for weekday rides. '
+            }, 
+            {
+                p: 'Leverage peak times and days: During peak hours and at the beginning of the month, offer incentives like discounts or bonuses to encourage subscriptions. '
+            }, 
+            {
+                p: 'Educational Campaigns: Implement campaigns to educate occasional users about the cost benefits of a subscription, especially if they use the service regularly during peak months (June - September), or during peak hours (8 AM and 5 PM).'
+            }, 
+           ,
         ]
     },
+    
     
 ]
 
