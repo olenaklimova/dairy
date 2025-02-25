@@ -243,6 +243,36 @@ let posts = [
            ,
         ]
     },
+    {
+        title: 'The Dynamic Scorecard: Turning Survey Data into Instant Insights',
+        cover: 'excelposts/card4.jpg',
+        preview: 'excelposts/card4.jpg',
+        data: '27.10.2024',
+        category: 'excel',
+        author: 'by Olena',
+        description: 'Picture yourself at Serenity Inn, a fictitious hotel I designed to showcase a powerful way of measuring guest satisfaction.',
+        content: [
+            {
+                h1: 'From Raw Data to Color-Coded Insights',
+                p: 'Using Excel as my creative playground, I combined advanced formulas with VBA macros to automate every step of the process. ',
+                image: 'excelposts/card2.jpg'
+            },
+            {
+                image: 'excelposts/card3.jpg',
+            },
+            {
+                p: 'The moment I enter a new survey rating, the Score Card recalculates and updates the category tiles, assigning each a color based on performance. A single click of my custom “Update” button instantly shows if Reception is FAIR or INCREDIBLY GOOD, and whether the hotel’s overall score falls into EXCEEDINGLY POOR or REALLY GOOD territory.',
+                image: 'excelposts/card1.jpg',
+            },
+            {
+                h1: 'Why It Matters',
+                image: 'excelposts/card4.jpg',
+                p: 'Although Serenity Inn is fictional, the impact of this Score Card is anything but imaginary. Hotel managers—or anyone tracking customer feedback—can make data-driven decisions in real time without wrestling with spreadsheets. By keeping a constant pulse on guest sentiment, staff can spot trouble areas fast, celebrate what’s going well, and ultimately create a better experience for everyone who walks through the door.',
+            },
+
+            
+        ]
+    },
     
     
 ]
