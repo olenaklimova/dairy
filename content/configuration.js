@@ -18,7 +18,7 @@ const categories = [
     'google cert.',
     'tableau',
     'my certificates',
-    'other projects',
+    'r programming',
 ] // Existed post categories
 
 const mainCategories = [
