@@ -273,6 +273,57 @@ let posts = [
             
         ]
     },
+    {
+        title: 'Exploring Global Injury Fatalities by Gender and Income',
+        cover: 'rposts/rplot0.jpeg',
+        preview: 'rposts/rplot0.jpeg',
+        data: '28.01.2025',
+        category: 'r programming',
+        author: 'by Olena',
+        description: 'I investigated global injury-related fatality rates (ages 15–59) to understand how these rates vary by gender and income level. Here’s a brief walkthrough of my process and what I discovered.',
+        content: [
+            {
+                h1: 'Data Wrangling',
+                p: 'I started by loading the necessary libraries and importing the dataset:',
+                image: 'rposts/rplot1.jpg'
+            },
+            {
+                p: 'I then filtered the data to focus on injury-related fatality rates for both genders using specific indicator codes. This step ensured that I was working with the correct subset of data:',
+                image: 'rposts/rplot2.jpg',
+            },
+            {
+                p: 'After that, I selected the relevant columns and extracted the gender information from the indicator names using str_extract(). This preparation was crucial for clear comparisons in the later visualization:',
+                image: 'rposts/rplot3.jpg',
+            },
+            {
+                h1: 'Visualization',
+                p: 'Next, I transformed Country.Name into a factor with a custom order to ensure that the income categories were displayed logically. This helped maintain consistency across the facets:',
+                image: 'rposts/rplot4.jpg',
+            },
+            {
+                p: 'I then used ggplot2 to create a faceted bar chart that compares male vs. female fatality rates across income groups:',
+                image: 'rposts/rplot5.jpg',
+            },
+            {
+                p: 'This approach not only highlights gender differences but also visually segregates the data by income category, making it easier to spot trends and deviations at a glance.',
+            },
+            {
+                h1: 'Key Findings',
+                image: 'rposts/rplot0.jpeg',
+            },
+            {
+                p: '1. Income-Level Comparison: Contrary to a straightforward “lower-income → higher fatalities” pattern, the data reveals a more nuanced reality. Some higher-income groups show comparable or even higher proportions of fatalities.',
+            },
+            {
+                p: '2. Gender Disparity: Males generally register higher fatality percentages than females across various income brackets.',
+            },
+            {
+                p: '3. Complex Factors: The unexpected patterns hint at underlying factors—such as healthcare systems, lifestyle differences, or reporting variations—that may influence these rates, suggesting areas for further exploration.',
+            },
+
+            
+        ]
+    },
     
     
 ]
