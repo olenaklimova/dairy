@@ -64,6 +64,9 @@ let posts = [
         description: 'I certainly was curious about where the Data Analyst job market was headed in 2024, so I dug into a Kaggle dataset to find out.',
         content: [
             {
+                p: 'I certainly was curious about where the Data Analyst job market was headed in 2024, so I dug into a Kaggle dataset to find out.'
+            },
+            {
                 h1: 'Power Query',
                 p: 'First, I imported and unified the data in Power Query, then created custom columns to classify roles like Data Analyst, Senior Data Analyst, Financial Data Analyst, and Healthcare Data Analyst. With everything cleaned up, I leveraged DAX to calculate estimated max and min salaries—crucial for comparing pay across these roles.',
                 image:'powerbiposts/data1.jpg',
@@ -131,6 +134,9 @@ let posts = [
         description: 'Welcome to the first installment of my Capstone Project series! In this post, I am diving into how I cleaned and organized the raw data for my project using R. This interactive walkthrough will give you a glimpse into turning messy datasets into a structured foundation for meaningful insights.',
         content: [
             {
+                p: 'Welcome to the first installment of my Capstone Project series! In this post, I am diving into how I cleaned and organized the raw data for my project using R. This interactive walkthrough will give you a glimpse into turning messy datasets into a structured foundation for meaningful insights.'
+            },
+            {
                 h1: '1. Setting the Stage: Reading Data & Loading Libraries',
                 p: 'I started by reading in four quarterly datasets (Q1 to Q4 of 2019) using read.csv2(). To manage the process, I loaded essential libraries like dplyr, tidyverse, and lubridate. This initial step ensured that the data was ready to be transformed and analyzed.',
                 image: 'googlecert/google1.jpg'
@@ -174,8 +180,11 @@ let posts = [
         description: 'Welcome to the second installment of my Capstone Project series! After meticulously cleaning and organizing the data in R, I used Tableau to transform rows of numbers into interactive, dynamic visualizations. In this post, I will walk through the key charts and dashboards I built—without delving too deeply into the findings (I will share my observations in the next post).',
         content: [
             {
+                p: 'Welcome to the second installment of my Capstone Project series!'
+            },
+            {
                 h1: '1. Mapping the Ride: Density of Users Trips by State',
-                p: 'A map is one of the most intuitive ways to display where bike trips happen. I created a color-coded map in Tableau that highlights the number of rides per state. You can hover over each state to see a tooltip with exact figures.',
+                p: 'After meticulously cleaning and organizing the data in R, I used Tableau to transform rows of numbers into interactive, dynamic visualizations. In this post, I will walk through the key charts and dashboards I built—without delving too deeply into the findings (I will share my observations in the next post). A map is one of the most intuitive ways to display where bike trips happen. I created a color-coded map in Tableau that highlights the number of rides per state. You can hover over each state to see a tooltip with exact figures.',
                 image: 'googlecert/map1.jpg'
             },
             {
@@ -209,6 +218,9 @@ let posts = [
         author: 'by Olena',
         description: 'In the final installment of my Capstone Project series, I am sharing the key insights and strategic recommendations derived from my analysis of bike trip data. These findings highlight distinct behavioral patterns between Customers and Subscribers, and they offer a roadmap for enhancing service and driving subscription growth.',
         content: [
+            {
+                p: 'In the final installment of my Capstone Project series, I am sharing the key insights and strategic recommendations derived from my analysis of bike trip data. These findings highlight distinct behavioral patterns between Customers and Subscribers, and they offer a roadmap for enhancing service and driving subscription growth.'
+            },
             {
                 image: 'googlecert/bike3.jpg',
                 h1: 'Key Insights',
@@ -254,7 +266,7 @@ let posts = [
         content: [
             {
                 h1: 'From Raw Data to Color-Coded Insights',
-                p: 'Using Excel as my creative playground, I combined advanced formulas with VBA macros to automate every step of the process. ',
+                p: 'Picture yourself at Serenity Inn, a fictitious hotel I designed to showcase a powerful way of measuring guest satisfaction. Using Excel as my creative playground, I combined advanced formulas with VBA macros to automate every step of the process. ',
                 image: 'excelposts/card2.jpg'
             },
             {
@@ -280,11 +292,11 @@ let posts = [
         data: '28.01.2025',
         category: 'r programming',
         author: 'by Olena',
-        description: 'I investigated global injury-related fatality rates (ages 15–59) to understand how these rates vary by gender and income level. Here’s a brief walkthrough of my process and what I discovered.',
+        description: 'I investigated global injury-related fatality rates (ages 15-59) to understand how these rates vary by gender and income level. Here is a brief walkthrough of my process and what I discovered.',
         content: [
             {
                 h1: 'Data Wrangling',
-                p: 'I started by loading the necessary libraries and importing the dataset:',
+                p: 'I investigated global injury-related fatality rates (ages 15–59) to understand how these rates vary by gender and income level. Here is a brief walkthrough of my process and what I discovered.I started by loading the necessary libraries and importing the dataset:',
                 image: 'rposts/rplot1.jpg'
             },
             {
