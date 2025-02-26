@@ -324,7 +324,39 @@ let posts = [
             
         ]
     },
-    
+    {
+        title: 'Startup Insights: Data-Driven Quest for the Perfect Gelato Spot',
+        cover: 'excelposts/gelato0.jpg',
+        preview: 'excelposts/gelato0.jpg',
+        data: '12.06.2024',
+        category: 'excel',
+        author: 'by Olena',
+        description: 'I decided to tackle the question, “Where in Emilia-Romagna should I open a new gelateria?” by diving deep into official tourist and demographic data—because if there is one thing I love, it is turning raw stats into actionable insights. ',
+        content: [
+            {
+                p: 'I decided to tackle the question, “Where in Emilia-Romagna should I open a new gelateria?” by diving deep into official tourist and demographic data—because if there is one thing I love, it is turning raw stats into actionable insights. I pulled the arrivals and presenze data (which hotels provide to show how many tourists are in the city) directly from the regional statistics website. Then I enriched this dataset with the population of each city, the number of gelaterias (courtesy of TripAdvisor), plus a few custom metrics like the average length of stay, tourists-per-gelateria ratio, market saturation index, and a target population (ages 9 to 30) for a loyalty program concept.',
+                image: 'excelposts/gelato1.jpg'
+            },
+            {
+                p: 'Once I had all that data I created pivot tables to summarize these metrics by city. ',
+                image: 'excelposts/gelato2.jpg',
+            },
+            {
+                p: 'I wanted to rank each city based on specific criteria — e.g.high tourist arrivals were a plus, whereas a high number of existing gelaterias was a minus. Using Excel ranking functions, I assigned the top-scoring city a “1,” all the way down to the least ideal city, which might get a “22.”',
+                image: 'excelposts/gelato3.jpg',
+            },
+            {
+                p: 'To make it really pop, I designed bar charts comparing the total scores for each city. I even split the analysis into summer-only months because, let’s face it, a gelateria thrives when the sun’s out. It was fascinating to see how certain coastal cities shot up in rank during the warmer months. Rimini, Cesenatico, and Riccione emerged as real front-runners, confirming my hunch that bustling beach towns might be prime gelato territory.',
+                image: 'excelposts/gelato4.jpg',
+            },
+            {
+                p: 'In the end, I had a complete story: a step-by-step funnel that began with raw data and ended with an at-a-glance ranking of the best gelateria spots. The entire process combined advanced Excel data wrangling (formulas, pivot tables, calculated fields) with creative problem-solving (deciding how to weight each metric). It was the perfect blend of number-crunching and strategic thinking—and it showed me just how powerful a well-structured spreadsheet can be in making real-world business decisions.',
+            },
+
+
+            
+        ]
+    },
     
 ]
 
