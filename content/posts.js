@@ -369,6 +369,57 @@ let posts = [
             
         ]
     },
+    {
+        title: 'Uncovering Workforce Insights with a Power BI HR Analytics Dashboard',
+        cover: 'powerbiposts/hr5.jpg',
+        preview: 'powerbiposts/hr5.jpg',
+        data: '22.02.2025',
+        category: 'power bi',
+        author: 'Olena',
+        description: 'I recently embarked on an exciting journey to transform a raw HR dataset into an insightful, interactive dashboard using Power BI. The project was driven by a desire to understand what truly happens behind the scenes of a company’s workforce—from tracking employee tenure and age demographics to quantifying performance and attrition in ways that drive strategic decisions.',
+        content: [
+            {
+                p: 'I recently embarked on an exciting journey to transform a raw HR dataset into an insightful, interactive dashboard using Power BI. The project was driven by a desire to understand what truly happens behind the scenes of a company’s workforce—from tracking employee tenure and age demographics to quantifying performance and attrition in ways that drive strategic decisions.'
+            },
+            {
+                h1: 'Data Preparation and Integration',
+                p: 'The process began with getting the data in shape. My dataset was rich with employee details such as demographics, job roles, and performance descriptions, but it needed some refining before analysis. I merged two critical tables: one containing core employee information and another holding performance descriptions. This integration was crucial because performance data, originally recorded in words, had to be converted into measurable scores for accurate analysis. To further refine the dataset, I created custom columns that added valuable dimensions. For example, I calculated “Years in Company” by comparing each employee’s start date with the current date, which made it easy to segment the workforce by tenure. Additionally, I introduced age group categories to break down the employee base into defined ranges, offering insights into the generational diversity within the organization.',
+                image: 'powerbiposts/hr1.jpg'
+            },
+            {
+                h1: 'Building DAX Measures',
+                p: 'Next, I leveraged Power BI’s DAX to develop key measures that brought the dashboard to life. One measure dynamically counted active and unactive employees providing a real-time snapshot of the workforce. Another calculated the attrition rate by dividing the number of inactive employees by the total employee count, revealing turnover trends over time. Converting textual performance ratings into numeric scores using DAX allowed for a more nuanced analysis, enabling the creation of interactive visuals like gauges and trend lines.',
+                image: 'powerbiposts/hr2.jpg'
+            },
+            {
+                image: 'powerbiposts/hr3.jpg'
+            },
+            {
+                image: 'powerbiposts/hr4.jpg'
+            },
+            {
+                h1: 'Visual Storytelling Through Dashboard Design',
+                p: 'On this page, I wanted to create a clear snapshot of the entire organization at a glance. You’ll notice that we start with three crucial figures—total employee records, active employees, and inactive employees—culminating in an overall attrition rate of 13.60%. A stacked bar chart shows how these counts have shifted year over year, differentiating between active and terminated staff, which immediately reveals any trends in workforce stability. On the right, a bar chart spotlights the number of employees by department, making it easy to see that Production currently has the largest headcount. Just below, there’s a detailed breakdown of job roles within each department, providing a more granular look at where employees are concentrated. Altogether, this page offers a quick yet comprehensive view of how many people the company employs, how that number has changed over time, and where those employees are distributed.',
+                image: 'powerbiposts/hr5.jpg'
+            },
+            {
+                p: 'On this page, I focused on bringing the “human” element of the data to life by highlighting the workforce’s demographic makeup. The top-left bar chart shows how active employees are distributed across various age groups, revealing whether the organization leans younger or older in its staffing. To the right, a donut chart breaks down marital status, offering a glimpse into the personal backgrounds of employees—whether they’re predominantly married, single, divorced, or widowed. Below, you’ll find a bar chart that further refines the age data by splitting each group into male and female categories, helping uncover any gender-based trends within specific age brackets. Finally, the bottom-right chart explores race alongside pay zone, providing a dual perspective on both cultural diversity and compensation patterns. Taken together, these visuals tell a story of who makes up the workforce, offering insights that can guide more inclusive and equitable HR policies.',
+                image: 'powerbiposts/hr6.jpg'
+            },
+            {
+                p: 'On this page, you can see a list of job titles on the left and several gauges on the right that quantify key metrics. Currently, the page filter is set to “Data Analyst,” so all performance and satisfaction data are specifically reflecting that role. The Performance gauge (2.98) translates qualitative ratings (Exceeds, Fully Meets, Needs Improvement, PIP) into a numeric scale, offering a quick view of how Data Analysts are performing. An Overall Rating of 5.00 stands out, with a goal of reaching 4 plus an additional 25%. Meanwhile, the Work Life Balance (3.09) and Satisfaction (3.15) gauges capture how Data Analysts feel about their day-to-day experience. This concise page highlights both performance outcomes and the human aspects of work.',
+                image: 'powerbiposts/hr7.jpg'
+            },
+            {
+                p: 'This page offers a multifaceted view of attrition across the organization. The bar chart on the left highlights which department types—such as Software Engineering or Production—have the highest turnover. On the right, a donut chart shows how attrition splits between full-time and part-time employees. Below, the line chart tracks the overall attrition trend over several years, indicating whether turnover is rising or falling. Finally, the bar chart on the bottom right examines attrition by tenure, revealing whether employees with fewer or more years at the company are more likely to leave. By combining these insights, this page pinpoints where and when turnover issues arise, helping guide effective retention strategies.',
+                image: 'powerbiposts/hr8.jpg'
+            },
+            {
+                h1: 'Conclusion',
+                p: 'This Power BI HR Analytics Dashboard project was a blend of technical rigor and creative storytelling. By converting qualitative data into quantitative measures and carefully designing engaging visuals, I was able to uncover patterns that might otherwise have remained hidden in a spreadsheet.'
+            },
+        ]
+    },
     
 ]
 
