@@ -420,6 +420,47 @@ let posts = [
             },
         ]
     },
+    {
+        title: 'Excel-Driven Hiring: From Data Disorder to Dynamic Insights',
+        cover: 'excelposts/talent2.jpg',
+        preview: 'excelposts/talent2.jpg',
+        data: '14.08.2023',
+        category: 'excel',
+        author: 'by Olena',
+        description: 'Imagine a tool that transforms disjointed, messy spreadsheets into a coherent, actionable story of your recruitment process.',
+        content: [
+            {
+                p: 'Imagine a tool that transforms disjointed, messy spreadsheets into a coherent, actionable story of your recruitment process. I built a four-page Excel dashboard that redefines hiring analytics. Using pivot tables and smart formulas, this dashboard extracts meaningful insights from raw data, mapping out the entire recruitment pipeline with precision and clarity. It is a game-changing solution that turns data disorder into dynamic, decision-driving insights for a modern Talent Acquisition Manager.',
+            },
+            {
+                h1: 'First Page: The Pipeline at a Glance',
+                p: 'On the first page, the Talent Acquisition Manager gets an immediate overview of the entire recruitment pipeline—total candidates, their status (in process, assigned, hired), and which channel they came from. Since the company actively sources talent through university visits abroad, career events, agencies, and direct applications, this page visually groups each acquisition path. By using a clear, bubble-style layout and highlighting totals, the dashboard makes it easy to spot where the bulk of candidates are coming from and how far along they are in the hiring journey. This at-a-glance format saves time and helps prioritize recruiting efforts, ensuring no channel is overlooked.',
+                image: 'excelposts/talent1.jpg',
+            },
+            {
+                h1: 'Second Page: Dubai Recruiting in Detail',
+                p: 'On this page, the focus narrows to candidates sourced from Dubai-based presentations. The first bar chart compares how many people were hired by position in the current year versus the previous year—shedding light on the roles in highest demand (e.g., housekeeping, restaurant, galley, and bar). Next, two donut charts reveal the percentage of applicants who progressed to interviews, and of those interviewed, how many were ultimately approved. This provides a quick snapshot of conversion rates at each stage of the recruitment funnel. Finally, the bar chart on the right breaks down candidates by nationality, offering an at-a-glance view of the diverse talent pool. While the data here might be limited, it still highlights the reach of these recruiting efforts and underscores potential areas for future focus.',
+                image: 'excelposts/talent2.jpg',
+            },
+            {
+                h1: 'Third Page: Role-Specific Hiring Progress',
+                p: 'On this page, the dashboard spotlights critical hospitality roles and tracks exactly how many hires have been made versus how many are still needed. Each donut chart displays the status of a specific role (e.g., Waiter, Bartender, Butler), visually illustrating progress toward filling the required positions—such as 100 waiters hired out of 125 needed. A larger donut chart on the right summarizes the overall total, giving a quick reference point for the Talent Acquisition Manager to see where they stand across all high-demand roles. This clear, role-by-role breakdown helps prioritize recruiting efforts and ensures the team can quickly address any gaps in staffing.',
+                image: 'excelposts/talent3.jpg',
+            },
+            {
+                h1: 'Fourth Page: New Program Tracking',
+                p: 'This final page highlights a recently launched learning initiative designed to develop essential skills within the hospitality team. The pie chart on the left shows the distribution of participants across various roles—like housekeeping, table attendants, galley, and chef—while the bar chart on the right indicates how many learners are based in each city (e.g., Berlin, Barcelona, Lisbon). With a total learner count clearly displayed, this page offers a snapshot of the program’s early adoption, helping leadership understand its reach and effectiveness at a glance.',
+                image: 'excelposts/talent4.jpg',
+            },
+            {
+                h1: 'Conclusion',
+                p: 'Through a carefully designed four-page Excel dashboard, the Talent Acquisition Manager can now seamlessly track candidates from multiple sources, monitor role-specific hiring progress, analyze the effectiveness of new recruitment programs, and make data-driven decisions. This project highlights how combining technical expertise with thoughtful problem-solving can transform scattered data into clear, actionable insights—ultimately strengthening the talent acquisition process.',
+            },
+
+
+            
+        ]
+    },
     
 ]
 
