@@ -497,7 +497,7 @@ let posts = [
         ]
     },
     {
-        title: 'Celebrating My Microsoft Power BI (PL-300) Certification',
+        title: 'My Microsoft Power BI (PL-300) Certification',
         cover: 'mycertposts/powerbi.jpg',
         preview: 'mycertposts/powerbi.jpg',
         data: '13.02.2025',
@@ -511,6 +511,24 @@ let posts = [
             },
             {
                 p: 'Now that I’ve passed the exam, I’m continuing to practice by tackling real-world case studies. I’ve been setting up exercises that reflect real business scenarios to keep my skills sharp and uncover fresh insights. This hands-on approach helps me refine everything I’ve learned, ensuring I stay current with best practices in data analytics. If you’re looking to start or advance in this field, Power BI is an excellent place to begin. It’s free, widely adopted in the industry, and offers a user-friendly platform that makes data exploration both accessible and powerful.',
+            },
+        ]
+    },
+    {
+        title: 'My Google Data Analytics Certificate',
+        cover: 'mycertposts/googleanaliticscert.jpg',
+        preview: 'mycertposts/googleanaliticscert.jpg',
+        data: '13.02.2025',
+        category: 'my certificates',
+        author: 'Udemy Academy',
+        description: 'I am proud to have earned the Google Data Analytics Professional Certificate. This accomplishment represents my deep commitment to mastering the art of data analytics through an eight-course specialization developed by Google.',
+        content: [
+            {
+                p: 'I am proud to have earned the Google Data Analytics Professional Certificate. This accomplishment represents my deep commitment to mastering the art of data analytics through an eight-course specialization developed by Google. In this program, I developed practical skills in preparing, processing, analyzing, and sharing data for thoughtful action, while working with essential tools like spreadsheets, SQL, Tableau, and R.',
+                 image: 'mycertposts/googleanaliticscert.jpg'
+            },
+            {
+                p: 'This certificate is more than a milestone—it is a testament to my ongoing journey in transforming raw data into actionable insights. The coursework enriched my understanding of key analytical concepts and equipped me to tackle real-world challenges through projects that mimic actual business scenarios. I continue to build on these skills by working on projects that keep me at the forefront of the dynamic field of data analytics.',
             },
         ]
     }
