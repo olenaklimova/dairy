@@ -531,6 +531,39 @@ let posts = [
                 p: 'This certificate is more than a milestone—it is a testament to my ongoing journey in transforming raw data into actionable insights. The coursework enriched my understanding of key analytical concepts and equipped me to tackle real-world challenges through projects that mimic actual business scenarios. I continue to build on these skills by working on projects that keep me at the forefront of the dynamic field of data analytics.',
             },
         ]
+    },
+    {
+        title: 'Behind the Hits: Unseen Links in Popular Music',
+        cover: 'tableau/spotify2.jpg',
+        preview: 'tableau/spotify2.jpg',
+        data: '01.07.2023',
+        category: 'tableau',
+        author: 'by Olena',
+        description: 'I created a Tableau dashboard to explore the attributes that make songs popular on Spotify.',
+        content: [
+            {
+                h1: 'Uncovering Patterns in Popular Songs',
+                p: 'I created a Tableau dashboard to explore the attributes that make songs popular on Spotify. The first page of the dashboard visualizes key metrics such as acousticness, dB (loudness), and energy, allowing me to see how these attributes align with a song’s popularity rating of 80 or higher. One of the most intriguing patterns I noticed is that highly popular songs (those near the top of the bar) often have a relatively high level of acousticness, suggesting that listeners might gravitate toward tracks that retain a more “organic” feel. Meanwhile, loudness (dB) doesn’t seem to have as strong an impact on popularity, as the distribution remains fairly even across the board.',
+            },
+            {
+                p: 'To complement this analysis, I included a cluster of circles representing different genres and their respective popularity scores. This visual arrangement makes it easy to identify which genres consistently reach higher popularity levels. The stars on the left serve as filters, allowing you to switch between years and zero in on any timeframe you find interesting.',
+                image: 'tableau/spotify1.jpg',
+            },
+            {
+                h1: 'Explore the Dashboard',
+                p: 'For a closer look, visit the interactive dashboard here https://public.tableau.com/app/profile/olena.klimova/viz/SpotifyTopSongsAttributes/Story1',
+            },
+            {
+                h1: 'Deep Dive into the Top Songs of the Year',
+                p: 'On the second page, I took a closer look at the most popular songs for each chosen year. Depending on the data, some years had a single standout track, while others, like 2017, featured two songs tied for the top spot. Setting up a filter that dynamically adjusts to show one or two songs based on the popularity scores was both challenging and exciting, but it really highlights how Tableau can adapt to different data scenarios.',
+                image: 'tableau/spotify2.jpg',
+            },
+            {
+                h1: 'Conclusion',
+                p: 'Overall, this project offered a fascinating glimpse into how certain audio features correlate with success, and it underscored the complexity of building dashboards that respond seamlessly to user interactions. Whether you’re curious about which genres dominate or which track took the crown in a given year, this Tableau dashboard provides an engaging way to explore the hidden links behind the hits.',
+            },
+    
+        ]
     }
     
     
