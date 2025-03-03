@@ -108,7 +108,7 @@ let posts = [
     {
         title: 'My SQL Achievements',
         cover: 'mycertposts/sql0.jpg',
-        preview: 'mycertposts/sql1.jpg',
+        preview: 'mycertposts/sqlcertificate.jpg',
         data: '13.10.2023',
         category: 'my certificates',
         author: 'Udemy Academy',
@@ -493,12 +493,27 @@ let posts = [
                 h1: 'Conclusion',
                 p: 'This dashboard is a snapshot of how minimum-wage earners’ purchasing power shifts over time. By visualizing the data in an interactive and visually appealing way, we can clearly see which essential items become more accessible and which remain out of reach. Feel free to explore the interactive tooltips in the Tableau dashboard for more details on each product’s trend.',
             },
-        
-
-
-            
+    
         ]
     },
+    {
+        title: 'Celebrating My Microsoft Power BI (PL-300) Certification',
+        cover: 'mycertposts/powerbi.jpg',
+        preview: 'mycertposts/powerbi.jpg',
+        data: '13.02.2025',
+        category: 'my certificates',
+        author: 'Udemy Academy',
+        description: 'I’m thrilled to share that I’ve recently earned the Microsoft Power BI (PL-300) certification.',
+        content: [
+            {
+                p: 'I’m thrilled to share that I’ve recently earned the Microsoft Power BI (PL-300) certification, using the free Power BI Desktop as my primary tool. During my preparation, I dove deep into Power Query to transform raw data, explored DAX to create meaningful measures and optimize data models, and mastered the M language for more complex transformations behind the scenes. This journey allowed me to see firsthand how Power BI can turn fragmented datasets into coherent, actionable insights.',
+                 image: 'mycertposts/powerbi.jpg'
+            },
+            {
+                p: 'Now that I’ve passed the exam, I’m continuing to practice by tackling real-world case studies. I’ve been setting up exercises that reflect real business scenarios to keep my skills sharp and uncover fresh insights. This hands-on approach helps me refine everything I’ve learned, ensuring I stay current with best practices in data analytics. If you’re looking to start or advance in this field, Power BI is an excellent place to begin. It’s free, widely adopted in the industry, and offers a user-friendly platform that makes data exploration both accessible and powerful.',
+            },
+        ]
+    }
     
     
 ]
