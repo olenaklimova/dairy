@@ -592,6 +592,40 @@ let posts = [
             
     
         ]
+    },
+    {
+        title: 'Retail Dashboard 2023: A Deep Dive into Revenue and Basket Size',
+        cover: 'tableau/retail.jpg',
+        preview: 'tableau/retail.jpg',
+        data: '20.10.2024',
+        category: 'tableau',
+        author: 'by Olena',
+        description: 'The Retail Dashboard 2023 provides a comprehensive snapshot of key performance indicators in the consumer market, placing total transactions, items sold, and overall revenue at the forefront.',
+        content: [
+            {
+                p: 'The Retail Dashboard 2023 provides a comprehensive snapshot of key performance indicators in the consumer market, placing total transactions, items sold, and overall revenue at the forefront. By presenting these metrics prominently, the dashboard ensures that users can immediately assess market performance and detect emerging trends. Through a combination of visual elements—including mini line charts, heatmaps, and interactive filters—the dashboard simplifies complex data to guide data-driven decisions.',
+            },
+            {
+                h1: 'Technical Foundations',
+                p: 'Under the hood, the dashboard leverages advanced data visualization practices. Mini line charts track revenue by age group, allowing for straightforward comparisons across demographics without overwhelming the screen. A heatmap highlights revenue patterns by month and weekday, making it easy to identify seasonal spikes or dips.',
+
+            },
+            {
+                h1: 'Explore the Dashboard',
+                p: 'For a closer look, visit the interactive dashboard here https://public.tableau.com/app/profile/olena.klimova/viz/retaildashboard_17294416498630/Dashboard1',
+            },
+            {
+                h1: 'Data Insights',
+                p: 'One of the most telling metrics is the average basket size, which indicates whether shoppers typically purchase single items or bundle multiple products per transaction. This information is crucial for refining merchandising strategies and optimizing promotions. Demographic breakdowns further reveal which age groups gravitate toward specific product categories—like beauty, clothing, or electronics—offering valuable insights for targeted marketing and inventory management.',
+                image: 'tableau/retail.jpg',
+            },
+            {
+                h1: 'Design & Usability',
+                p: 'Every aspect of the dashboard’s layout and color scheme is crafted to ensure clarity. The color palette helps distinguish different segments, while consistent visual design keeps users focused on the story the data tells. The user experience is enhanced by dynamic filters that allow for easy drilling down into specific areas of interest, striking a balance between detail and accessibility.',
+            }
+            
+    
+        ]
     }
     
     
