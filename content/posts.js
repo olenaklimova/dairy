@@ -461,6 +461,45 @@ let posts = [
             
         ]
     },
+    {
+        title: 'How Far Can a Ukrainian’s Wallet Stretch?',
+        cover: 'tableau/ua.jpg',
+        preview: 'tableau/ua.jpg',
+        data: '28.06.2023',
+        category: 'tableau',
+        author: 'by Olena',
+        description: 'I decided to explored data from the Government, State Statistics Service of Ukraine to see how much of certain everyday goods a Ukrainian on the minimum wage could afford over time.',
+        content: [
+            {
+                h1: 'Background & Data',
+                p: 'I decided to explored data from the Government, State Statistics Service of Ukraine to see how much of certain everyday goods a Ukrainian on the minimum wage could afford over time. The dataset included details like commodity names, prices, dates, regions, and the annual minimum wage. By combining these, I calculated the “purchasing power” for each product: essentially, how many kilograms (or liters, etc.) a person could buy if they spent their entire monthly minimum wage on that single item.',
+            },
+            {
+                h1: 'Visualization in Tableau',
+                p: 'To make the data easier to digest, I created an interactive dashboard in Tableau that unfolds the story of affordability over the years. Imagine a series of elegant line charts that trace the purchasing power of various products, where each line does not just represent numbers but comes to life with distinct product icons placed right on the graphs. These icons serve as immediate visual cues, guiding you effortlessly through the trends. As you move your cursor along the lines, detailed tooltips appear, offering insights such as the specific product, the year in question, the unit of measurement, and the precise quantity that could be bought with the minimum wage. This design not only makes the information more engaging but also brings clarity to how economic shifts affect everyday necessities.',
+                image: 'tableau/ua1.jpg',
+            },
+            {
+                h1: 'Explore the Dashboard',
+                p: 'For a closer look, visit the interactive dashboard here https://public.tableau.com/app/profile/olena.klimova/viz/PurchasingPowerinUkraine2018-2023/Dashboard1',
+                image: 'tableau/ua.jpg',
+            },
+            {
+                h1: 'How to Read the Dashboard',
+                p: 'The dashboard invites you to identify products by their icons and follow their journeys over time. By observing the changes along the horizontal timeline and noting the detailed figures presented in the tooltips, you can appreciate the shifts in affordability that reflect broader economic trends.',
+                image: 'tableau/ua2.jpg',
+            },
+            {
+                h1: 'Conclusion',
+                p: 'This dashboard is a snapshot of how minimum-wage earners’ purchasing power shifts over time. By visualizing the data in an interactive and visually appealing way, we can clearly see which essential items become more accessible and which remain out of reach. Feel free to explore the interactive tooltips in the Tableau dashboard for more details on each product’s trend.',
+            },
+        
+
+
+            
+        ]
+    },
+    
     
 ]
 
