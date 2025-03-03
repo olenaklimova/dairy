@@ -564,6 +564,34 @@ let posts = [
             },
     
         ]
+    },
+    {
+        title: 'Melbourne Market Dashboard: A Light & Dark Mode Experience',
+        cover: 'tableau/mdark.jpg',
+        preview: 'tableau/mdark.jpg',
+        data: '16.10.2023',
+        category: 'tableau',
+        author: 'by Olena',
+        description: 'The Melbourne Market Dashboard is a dynamic visualization tool that brings the city’s property landscape to life through an engaging and adaptable interface.',
+        content: [
+            {
+                p: 'The Melbourne Market Dashboard is a dynamic visualization tool that brings the city’s property landscape to life through an engaging and adaptable interface. At its core, the dashboard displays key market metrics such as average prices for houses, townhouses, and units, alongside monthly changes and the highest recorded sale. These numbers provide a clear picture of market performance and reveal which regions are most active.',
+            },
+            {
+                p: 'The dashboard is built around several interactive visual elements. Line graphs trace the evolution of property prices over a 12-month period, allowing users to observe trends and spot significant spikes or dips. Bar charts offer a regional breakdown, presenting a visual comparison of activity levels across different areas. Additionally, a pie chart illustrates the distribution of sale methods, such as auction versus private sale, providing insights into prevailing market practices.',
+                image: 'tableau/mlight.jpg',
+            },
+            {
+                h1: 'Explore the Dashboard',
+                p: 'For a closer look, visit the interactive dashboard here https://public.tableau.com/app/profile/olena.klimova/viz/SpotifyTopSongsAttributes/Story1',
+            },
+            {
+                p: 'A notable feature is the integrated light/dark mode toggle. This design element allows users to switch between visual themes to match their preferences or ambient lighting conditions, ensuring that the information is both accessible and visually appealing. Overall, the dashboard not only conveys essential data through well-crafted charts but also offers a customizable viewing experience that adapts to the needs of its audience.',
+                image: 'tableau/mdark.jpg',
+            },
+            
+    
+        ]
     }
     
     
