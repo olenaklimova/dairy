@@ -626,6 +626,42 @@ let posts = [
             
     
         ]
+    },
+    {
+        title: 'Transforming Call Center Analytics with Tableau: A Journey of Data-Driven Storytelling',
+        cover: 'tableau/call2.jpg',
+        preview: 'tableau/call2.jpg',
+        data: '04.12.2024',
+        category: 'tableau',
+        author: 'by Olena',
+        description: 'In this post, I share the story of a challenging call center analytics project where I leveraged Tableau to transform raw data into actionable insights.',
+        content: [
+            {
+                p: 'In this post, I share the story of a challenging call center analytics project where I leveraged Tableau to transform raw data into actionable insights. I’ll walk you through three distinct dashboard pages—the “Overview,” “Agents,” and “Priority” pages—detailing the technical skills and design decisions that brought these interactive visualizations to life. From calculated fields to interactive tooltips and custom parameters, discover how each page was engineered to support data-driven decision-making and operational excellence.',
+            },
+            {
+                h1: 'The “Overview” Page',
+                p: 'When I first dove into the call center’s data, I set up an “Overview” dashboard in Tableau to visualize the key metrics from July to December 2017. Front and center, I placed the Satisfaction rate (3.0), the Average speed of answer (55 seconds), and the total Talk time (176) to provide an at-a-glance health check of the operation. Next to these, I included the IVR time (9) metric to highlight how much time callers spent navigating the automated system before reaching a live agent. The bar chart displaying the total amount of calls—ranging from around 7,458 in July to 10,393 in August, then tapering down through the rest of the year—gave managers a clear timeline of call volume peaks and troughs. Color-coded donut charts showcased the Resolution rate (78%), Service Level (72%), and Non Abandon rate (91%), allowing immediate visual comparisons against internal targets. By blending multiple data sources, setting up calculated fields for KPIs, and applying conditional color formatting, this page was engineered to deliver real-time insights that were both visually appealing and analytically robust.',
+                image: 'tableau/call1.jpg',
+
+            },
+            {
+                h1: 'Explore the Dashboard',
+                p: 'For a closer look, visit the interactive dashboard here https://public.tableau.com/app/profile/olena.klimova/viz/callcenteranalysis_17017003344710/Dashboard_MAIN',
+            },
+            {
+                h1: 'The “Agents” Page',
+                p: 'After establishing the big-picture view, I turned my attention to agent performance on the “Agents” dashboard page. Here, I pulled in details such as each agent’s total calls, resolved calls, and individual resolution rates (RRs) to rank them by effectiveness. A dedicated column tracked satisfaction scores, ensuring we captured not only speed but also the quality of service. Below this table, I set up a bar chart comparing talk time by agent—complete with a reference line marking the target of 35 seconds—to highlight those who consistently met or exceeded call handling standards. To add depth, I incorporated line graphs tracking each agent’s performance trends over time, with a color-coded scheme that made spotting spikes or dips effortless. This detailed, multi-layered approach was realized by joining multiple tables, creating custom parameters for nuanced comparisons, and embedding interactive tooltips that offered a granular deep dive into every data point.',
+                image: 'tableau/call2.jpg',
+            },
+            {
+                h1: 'The “Priority” Page',
+                p: 'Finally, I designed the “Priority” dashboard page to guide strategic decision-making by categorizing calls into High, Medium, and Low priorities. Three horizontal bar visuals broke down key metrics—such as Resolution rate (81% High, 70% Medium), Service level (45% Medium, 90% Low), and Satisfaction rate (3.1 stars High, 2.7 stars Medium)—pinpointing exactly where operational improvements were most needed. Alongside these, I plotted a line chart of total calls per month that revealed how peaks in October and December coincided with dips in resolution speed. Additionally, a color-coded up/down arrow system for the Average speed answer provided managers with an immediate visual cue on service performance trends. By combining advanced calculations, reference lines, and dynamic labels, I transformed raw call data into a compelling narrative. This structured, three-page Tableau solution not only diagnosed immediate issues but also empowered stakeholders with actionable insights to refine long-term strategies and boost overall customer satisfaction.',
+                image: 'tableau/call3.jpg',
+            }
+            
+    
+        ]
     }
     
     
