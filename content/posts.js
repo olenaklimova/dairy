@@ -1,5 +1,56 @@
 let posts = [
     {
+        title: 'Building My Inventory Analysis Dashboard in Power BI',
+        cover: 'powerbiposts/inventory5.jpg',
+        preview: 'powerbiposts/inventory5.jpg',
+        data: '13.03.2025',
+        category: 'power bi',
+        author: 'by Olena',
+        description: 'Building my Inventory Analysis Dashboard in Power BI was a rewarding journey that combined creative problem-solving with technical precision. In this post, I’ll take you through the process, sharing how I built the data model, designed interactive pages, and used advanced DAX calculations to provide deep insights into inventory performance and sales trends.',
+        content: [
+            {
+                p: 'Building my Inventory Analysis Dashboard in Power BI was a rewarding journey that combined creative problem-solving with technical precision. In this post, I’ll take you through the process, sharing how I built the data model, designed interactive pages, and used advanced DAX calculations to provide deep insights into inventory performance and sales trends.'
+            },
+            {
+                h1: '1. Crafting a Robust Data Model',
+                p: 'I began by constructing a robust data model as the foundation for the entire project. I built two essential dimension tables—a Link Table and a Vendor Table. The Link Table unified all the InventoryIDs from various sources by removing duplicates and establishing a single, reliable primary key that connected the Sales, Purchases, and Inventory data. The Vendor Table brought in valuable vendor-specific details to further enrich the model. This initial step was critical in setting up relationships and ensuring that every subsequent calculation and visualization was built on a solid foundation.',
+                image: 'powerbiposts/inventorydb.jpg',
+            },
+            {
+                h1: '2. High-Level Overview: The First Page',
+                p: 'The dashboard opens with a high-level overview that provides a quick snapshot of business performance. This page displays key metrics such as total revenue, the number of SKUs sold, cost of goods sold, and inventory turnover. Additionally, I incorporated visuals like a pie chart that shows SKU statuses and a column-and-line chart comparing stock on hand with revenue and turnover across various cities. Smart use of DAX measures and conditional formatting draws immediate attention to the most important insights, setting the stage for deeper exploration',
+                image: 'powerbiposts/inventory0.jpg',
+            },
+            {
+                h1: '3. Time-Based Trends: Delving into Week and Day Analysis',
+                p: 'The second page shifts the focus to time-based trends. Here, I analyzed average revenue and items sold on both a weekly and daily basis. Leveraging a Calendar table and DAX time intelligence functions allowed me to slice the data effectively, revealing which weeks and days drive the most activity. The combination of bar and line charts provides a clear view of these trends, highlighting the rhythm of the business over time.',
+                image: 'powerbiposts/inventory1.jpg',
+            },
+            {
+                h1: '3. Spotlight on Product Performance',
+                p: 'On the third page, the focus narrows to product performance. An interactive slicer enables users to filter data by city, while a dynamic Top N selector adjusts the bar chart to display the highest-performing products by revenue. Alongside the revenue data, an overlaid line chart shows the volume of items sold, offering a dual perspective on each product’s performance.',
+                image: 'powerbiposts/inventory2.jpg',
+            },
+            {
+                p: 'A key element here was a DAX measure using RANKX to rank products based on performance:',
+                image: 'powerbiposts/inventory8.jpg',
+            },
+            {
+                h1: 'Advanced Insights with Pareto ABC Analysis',
+                p: 'Perhaps the most advanced part of the dashboard is the fourth page, where I applied the Pareto principle to perform an ABC analysis. This section categorizes products into A, B, or C groups based on their contribution to total revenue. I developed DAX measures to calculate cumulative sales and rank each product, ultimately segmenting the data into actionable groups.',
+                image: 'powerbiposts/inventory5.jpg',
+            },
+            {
+                p: 'For instance, a DAX measure for cumulative sales looked like this:',
+                image: 'powerbiposts/inventory7.jpg',
+            },
+            {
+                h1: 'Reflections on the Journey',
+                p: 'Throughout this project, I honed a variety of technical skills crucial for effective data visualization. I worked extensively with Power Query to clean and transform data, ensuring high-quality inputs for the model. Establishing complex relationships between tables supported dynamic filtering and interactive visuals, while advanced DAX calculations provided deep, actionable insights. The result is a polished dashboard that not only looks professional but also delivers comprehensive insights into inventory performance and sales trends.',
+            }
+        ]
+    },
+    {
         title: 'Churn Analysis with Power BI: Key Takeaways',
         cover: 'powerbiposts/churn.jpg',
         preview: 'powerbiposts/churn.jpg',
@@ -592,6 +643,41 @@ let posts = [
             
     
         ]
+    },  {
+        title: 'Transforming Call Center Analytics with Tableau: A Journey of Data-Driven Storytelling',
+        cover: 'tableau/call2.jpg',
+        preview: 'tableau/call2.jpg',
+        data: '04.12.2024',
+        category: 'tableau',
+        author: 'by Olena',
+        description: 'In this post, I share the story of a challenging call center analytics project where I leveraged Tableau to transform raw data into actionable insights.',
+        content: [
+            {
+                p: 'In this post, I share the story of a challenging call center analytics project where I leveraged Tableau to transform raw data into actionable insights. I’ll walk you through three distinct dashboard pages—the “Overview,” “Agents,” and “Priority” pages—detailing the technical skills and design decisions that brought these interactive visualizations to life. From calculated fields to interactive tooltips and custom parameters, discover how each page was engineered to support data-driven decision-making and operational excellence.',
+            },
+            {
+                h1: 'The “Overview” Page',
+                p: 'When I first dove into the call center’s data, I set up an “Overview” dashboard in Tableau to visualize the key metrics from July to December 2017. Front and center, I placed the Satisfaction rate (3.0), the Average speed of answer (55 seconds), and the total Talk time (176) to provide an at-a-glance health check of the operation. Next to these, I included the IVR time (9) metric to highlight how much time callers spent navigating the automated system before reaching a live agent. The bar chart displaying the total amount of calls—ranging from around 7,458 in July to 10,393 in August, then tapering down through the rest of the year—gave managers a clear timeline of call volume peaks and troughs. Color-coded donut charts showcased the Resolution rate (78%), Service Level (72%), and Non Abandon rate (91%), allowing immediate visual comparisons against internal targets. By blending multiple data sources, setting up calculated fields for KPIs, and applying conditional color formatting, this page was engineered to deliver real-time insights that were both visually appealing and analytically robust.',
+                image: 'tableau/call1.jpg',
+
+            },
+            {
+                h1: 'Explore the Dashboard',
+                p: 'For a closer look, visit the interactive dashboard here https://public.tableau.com/app/profile/olena.klimova/viz/callcenteranalysis_17017003344710/Dashboard_MAIN',
+            },
+            {
+                h1: 'The “Agents” Page',
+                p: 'After establishing the big-picture view, I turned my attention to agent performance on the “Agents” dashboard page. Here, I pulled in details such as each agent’s total calls, resolved calls, and individual resolution rates (RRs) to rank them by effectiveness. A dedicated column tracked satisfaction scores, ensuring we captured not only speed but also the quality of service. Below this table, I set up a bar chart comparing talk time by agent—complete with a reference line marking the target of 35 seconds—to highlight those who consistently met or exceeded call handling standards. To add depth, I incorporated line graphs tracking each agent’s performance trends over time, with a color-coded scheme that made spotting spikes or dips effortless. This detailed, multi-layered approach was realized by joining multiple tables, creating custom parameters for nuanced comparisons, and embedding interactive tooltips that offered a granular deep dive into every data point.',
+                image: 'tableau/call2.jpg',
+            },
+            {
+                h1: 'The “Priority” Page',
+                p: 'Finally, I designed the “Priority” dashboard page to guide strategic decision-making by categorizing calls into High, Medium, and Low priorities. Three horizontal bar visuals broke down key metrics—such as Resolution rate (81% High, 70% Medium), Service level (45% Medium, 90% Low), and Satisfaction rate (3.1 stars High, 2.7 stars Medium)—pinpointing exactly where operational improvements were most needed. Alongside these, I plotted a line chart of total calls per month that revealed how peaks in October and December coincided with dips in resolution speed. Additionally, a color-coded up/down arrow system for the Average speed answer provided managers with an immediate visual cue on service performance trends. By combining advanced calculations, reference lines, and dynamic labels, I transformed raw call data into a compelling narrative. This structured, three-page Tableau solution not only diagnosed immediate issues but also empowered stakeholders with actionable insights to refine long-term strategies and boost overall customer satisfaction.',
+                image: 'tableau/call3.jpg',
+            }
+            
+    
+        ]
     },
     {
         title: 'Retail Dashboard 2023: A Deep Dive into Revenue and Basket Size',
@@ -627,42 +713,7 @@ let posts = [
     
         ]
     },
-    {
-        title: 'Transforming Call Center Analytics with Tableau: A Journey of Data-Driven Storytelling',
-        cover: 'tableau/call2.jpg',
-        preview: 'tableau/call2.jpg',
-        data: '04.12.2024',
-        category: 'tableau',
-        author: 'by Olena',
-        description: 'In this post, I share the story of a challenging call center analytics project where I leveraged Tableau to transform raw data into actionable insights.',
-        content: [
-            {
-                p: 'In this post, I share the story of a challenging call center analytics project where I leveraged Tableau to transform raw data into actionable insights. I’ll walk you through three distinct dashboard pages—the “Overview,” “Agents,” and “Priority” pages—detailing the technical skills and design decisions that brought these interactive visualizations to life. From calculated fields to interactive tooltips and custom parameters, discover how each page was engineered to support data-driven decision-making and operational excellence.',
-            },
-            {
-                h1: 'The “Overview” Page',
-                p: 'When I first dove into the call center’s data, I set up an “Overview” dashboard in Tableau to visualize the key metrics from July to December 2017. Front and center, I placed the Satisfaction rate (3.0), the Average speed of answer (55 seconds), and the total Talk time (176) to provide an at-a-glance health check of the operation. Next to these, I included the IVR time (9) metric to highlight how much time callers spent navigating the automated system before reaching a live agent. The bar chart displaying the total amount of calls—ranging from around 7,458 in July to 10,393 in August, then tapering down through the rest of the year—gave managers a clear timeline of call volume peaks and troughs. Color-coded donut charts showcased the Resolution rate (78%), Service Level (72%), and Non Abandon rate (91%), allowing immediate visual comparisons against internal targets. By blending multiple data sources, setting up calculated fields for KPIs, and applying conditional color formatting, this page was engineered to deliver real-time insights that were both visually appealing and analytically robust.',
-                image: 'tableau/call1.jpg',
 
-            },
-            {
-                h1: 'Explore the Dashboard',
-                p: 'For a closer look, visit the interactive dashboard here https://public.tableau.com/app/profile/olena.klimova/viz/callcenteranalysis_17017003344710/Dashboard_MAIN',
-            },
-            {
-                h1: 'The “Agents” Page',
-                p: 'After establishing the big-picture view, I turned my attention to agent performance on the “Agents” dashboard page. Here, I pulled in details such as each agent’s total calls, resolved calls, and individual resolution rates (RRs) to rank them by effectiveness. A dedicated column tracked satisfaction scores, ensuring we captured not only speed but also the quality of service. Below this table, I set up a bar chart comparing talk time by agent—complete with a reference line marking the target of 35 seconds—to highlight those who consistently met or exceeded call handling standards. To add depth, I incorporated line graphs tracking each agent’s performance trends over time, with a color-coded scheme that made spotting spikes or dips effortless. This detailed, multi-layered approach was realized by joining multiple tables, creating custom parameters for nuanced comparisons, and embedding interactive tooltips that offered a granular deep dive into every data point.',
-                image: 'tableau/call2.jpg',
-            },
-            {
-                h1: 'The “Priority” Page',
-                p: 'Finally, I designed the “Priority” dashboard page to guide strategic decision-making by categorizing calls into High, Medium, and Low priorities. Three horizontal bar visuals broke down key metrics—such as Resolution rate (81% High, 70% Medium), Service level (45% Medium, 90% Low), and Satisfaction rate (3.1 stars High, 2.7 stars Medium)—pinpointing exactly where operational improvements were most needed. Alongside these, I plotted a line chart of total calls per month that revealed how peaks in October and December coincided with dips in resolution speed. Additionally, a color-coded up/down arrow system for the Average speed answer provided managers with an immediate visual cue on service performance trends. By combining advanced calculations, reference lines, and dynamic labels, I transformed raw call data into a compelling narrative. This structured, three-page Tableau solution not only diagnosed immediate issues but also empowered stakeholders with actionable insights to refine long-term strategies and boost overall customer satisfaction.',
-                image: 'tableau/call3.jpg',
-            }
-            
-    
-        ]
-    }
     
     
 ]
