@@ -36,7 +36,7 @@ let posts = [
                 image: 'powerbiposts/inventory8.jpg',
             },
             {
-                h1: 'Advanced Insights with Pareto ABC Analysis',
+                h1: '4. Advanced Insights with Pareto ABC Analysis',
                 p: 'Perhaps the most advanced part of the dashboard is the fourth page, where I applied the Pareto principle to perform an ABC analysis. This section categorizes products into A, B, or C groups based on their contribution to total revenue. I developed DAX measures to calculate cumulative sales and rank each product, ultimately segmenting the data into actionable groups.',
                 image: 'powerbiposts/inventory5.jpg',
             },
