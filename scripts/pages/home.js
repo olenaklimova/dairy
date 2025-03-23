@@ -133,7 +133,7 @@ const renderSliderBlock = (id) => {
     sliderBlockWrapper.insertAdjacentHTML('afterbegin', sliderBlock)
 }
 
-const sliderBlockId = posts.length - 1;
+const sliderBlockId = 0;
 
 renderSliderBlock(sliderBlockId)
 
@@ -145,7 +145,7 @@ const createCategory = (name, preview) => {
             <span class="categories_text">${name}</span>
         </li>
     `
-    categoriesWrapper.insertAdjacentHTML('beforeend', category)
+    categoriesWrapper.innerHTML += category
 }
 
 for (let i = 0; i < mainCategories.length; i++) {
@@ -217,12 +217,12 @@ const createPost = (data, category, author, title, description, preview, id, i) 
         </li>
         `
     }
-    postsWrapper.insertAdjacentHTML('beforeend', post)
+    postsWrapper.innerHTML += post
 }
 
 let sortedPosts = posts
 
-const renderPosts = () => {
+const renderPosts = (sortedPosts) => {
     postsWrapper.innerHTML = ''
     let borders = sortedPostsCount
     if (sortedPosts.length < sortedPostsCount) borders = sortedPosts.length 
@@ -251,7 +251,7 @@ const sortPosts = (category) => {
         }
         if (sortedPosts.length >= sortedPostsCount) break
     }
-    renderPosts()
+    renderPosts(sortedPosts)
 }
 
 for (let i = 0; i < mainCategoriesBlocks.length; i++) {

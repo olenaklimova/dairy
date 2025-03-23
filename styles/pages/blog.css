@@ -197,9 +197,11 @@ html {
     margin-top: 20px;
     color: var(--grey-dark-color);
     font-family: var(--serif-font);
-    max-height: 111px;
+    max-height: 109px;
     margin-top: 10px;
     overflow-x: auto;
+    padding-right: 5px;
+
 }
 
 .post_read-more-btn {
